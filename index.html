@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <title>University Website Design</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo images.jpeg"></a>
+            <div class="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                   <li><a href="">HOME</a></li>
+                   <li><a href="">ABOUT</a></li>
+                   <li><a href="">COURSES</a></li>
+                   <li><a href="">BLOG</a></li>
+                   <li><a href="">CONTACT</a></li> 
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>></i>
+        </nav>
+
+<div class="text-box">
+    <h1>World's Biggest University</h1>
+    <p>The best ever to happen</p>
+    <a href=""class="hero-btn">Visit us to know more</a>
+</div>
+
+    </section>
+
+    <!------course------>
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Becoming Independent and Becoming better in this Generation</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae nihil sapiente eveniet alias error eaque natus? Autem suscipit aperiam recusandae optio nihil laborum quidem explicabo. Eos sequi molestias beatae esse?</p>
+            </div>
+            <div class="course-col">
+                 <h3>Degree</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium suscipit praesentium assumenda accusamus sequi enim, iure, unde iste, optio totam commodi. Officiis animi illum iste alias soluta consectetur dignissimos rerum.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post-Graduate</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde maiores provident porro! Molestias quaerat, maxime consequatur, eius hic minima dolore blanditiis sunt nesciunt qui modi asperiores nostrum magnam consequuntur! Alias.</p>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!------Campus----->
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet, consecteur adipiscing elit.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="img/building.avif">
+                <div class="layer">
+                    <h3>ABUJA</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="img/second-building.avif">
+                <div class="layer">
+                    <h3>LAGOS</h3>
+                </div>
+            </div>
+            
+            <div class="campus-col">
+                <img src="img/third-building.avif">
+                <div class="layer">
+                    <h3>OGUN</h3>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <!------ Facilities ------>
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet, consecteur adipiscing elit.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="img/library.avif">
+                <h3>LIBRARY</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae hic nulla doloribus odio delectus possimus ea, explicabo odit? </p>
+                
+            </div>
+            <div class="facilities-col">
+                <img src="img/computer.avif">
+                <h3>COMPUTER LAB</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae hic nulla doloribus odio delectus possimus ea, explicabo odit? </p>
+                
+            </div>
+            <div class="facilities-col">
+                <img src="img/basketball.avif">
+                <h3>BASKETBALL COURT</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae hic nulla doloribus odio delectus possimus ea, explicabo odit? </p>
+                
+            </div>
+        </div>
+    </section>
+
+    <!------testimonials------>
+    
+    <section class="testimonials">
+        <h1>What Our Students Says</h1>
+        <p>Lorem ipsum dolor sit amet, consecteur adipiscing elit.</p>
+
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="img/testimonials.avif">
+                <div>
+                    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem dicta nobis, nam quam excepturi maiores, ipsum ea, tempore veritatis repudiandae nesciunt. </P>
+                    <h3>Adams Griffer</h3>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="img/testimonial 2.avif">
+                <div>
+                    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem dicta nobis, nam quam excepturi maiores, ipsum ea, tempore veritatis repudiandae nesciunt. </P>
+                    <h3>Nion Toek</h3>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="img/3.avif">
+                <div>
+                    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem dicta nobis, nam quam excepturi maiores, ipsum ea, tempore veritatis repudiandae nesciunt. </P>    
+                    <h3>Lin Greoffrey</h3>
+                </div>
+                
+        </div>
+
+    </section>
+   
+
+    <!------Javascript for Toggle menu------>
+    <script>
+        var navlinks = document.getElementByI("navlinks");
+
+        function showmenu(){
+            navlinks.stylel.right = "0";
+        }
+        function hidemenu(){
+            navlinks.stylel.right = "-200px";
+        }
+
+    </script>
+    
+</body>
+</html>
